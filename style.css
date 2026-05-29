@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #e0e0e0;
+    padding: 20px;
+}
+
+/* посилання різних кольорів */
+a.link-yellow {
+    color: #d4a017;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a.link-yellow:hover {
+    text-decoration: underline;
+    color: #f0b000;
+}
+
+a.link-red {
+    color: #cc0000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a.link-red:hover {
+    text-decoration: underline;
+    color: #ff0000;
+}
+
+a.link-green {
+    color: #2e7d32;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a.link-green:hover {
+    text-decoration: underline;
+    color: #4caf50;
+}
+
+/* вкладені списки */
+.nested-list ul {
+    margin-left: 20px;
+    list-style-type: disc;
+}
+
+.nested-list ul ul {
+    list-style-type: circle;
+}
+
+.nested-list ul ul ul {
+    list-style-type: square;
+}
+
+.nested-list li {
+    margin: 5px 0;
+}
